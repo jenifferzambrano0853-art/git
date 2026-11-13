@@ -1,5 +1,7 @@
-def sumar(a, b):
-    return a + b
+
+
+
+
 
 def restar(a, b):
     return a - b
@@ -27,7 +29,7 @@ def calculadora():
             num1 = float(input("Ingresa el primer número: "))
             num2 = float(input("Ingresa el segundo número: "))
         except ValueError:
-            print("❌ Error: Por favor, ingresa valores numéricos válidos.")
+            print("Error: Por favor, ingresa valores numéricos válidos.")
             return
 
         if opcion == '1':
